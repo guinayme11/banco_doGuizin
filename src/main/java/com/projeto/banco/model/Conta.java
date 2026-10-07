@@ -12,9 +12,9 @@ import lombok.NoArgsConstructor;
 import jakarta.persistence.Id;
 
     @Entity(name="tb_Conta")
-    @Getter
-    @NoArgsConstructor
-    class Conta {
+@Getter
+@NoArgsConstructor
+class Conta {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
